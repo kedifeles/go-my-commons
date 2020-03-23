@@ -5,7 +5,7 @@
 
 pre-push:
     commands:
-      backend-ci:
-        run: make ci
+      test-lint:
+        run: make test lint
       
   
